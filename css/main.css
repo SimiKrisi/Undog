@@ -1,0 +1,51 @@
+.content_columns{
+    display: inline-block;
+    vertical-align: top;
+    height: auto; 
+    width: 30%;
+    margin: 1%;
+}
+#gallery{
+    border-left: 2px #bbbbbb solid;
+    border-right: 2px #bbbbbb solid;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 768px) {
+	.content_columns {width: 100%;}
+    #gallery{border: none;}
+}
+.ContentGallery{
+    margin: 4px;
+    width: 36%;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+#content{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+#debut p{
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.concert p{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.concert{
+    transition: background-color 0.5s ease;
+    &:hover {
+        background-color: #cccccc;
+        cursor: pointer;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
+h3{
+    text-align: center;
+}

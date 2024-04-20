@@ -1,0 +1,206 @@
+/*settings for the head of the page*/
+#head{
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center; 
+}
+#Title{
+    max-width: 400px;
+    display: inline-block; 
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100px;
+    width: 90%;
+}
+
+/*settings for the menu*/
+#menu{
+    height: 50px;
+    background-color: black;
+    opacity: 0.8    ;
+    color: white;
+    font-size: x-large;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    text-align: center;
+}
+#menu a{
+    color:unset;
+    font-style: unset;
+    font-size: unset;
+    font-weight: unset;
+    font-display: unset;
+    text-decoration: unset;
+}
+#menu ul{
+    display: block;
+    text-align: center;
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 0%; 
+    background-color: black;
+    opacity: 1;
+}
+#menu li{
+    display: block;
+    margin-top: 2px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+@media only screen and (min-width:992px) {
+    #menu li{display: inline-block};
+
+}
+#menu li:hover{
+    color: lightcoral;
+}
+#index{
+    color: rgb(255, 128, 36);
+}
+@media only screen and (min-width: 750px) {
+	#toggler {display: none;}
+}
+#navbarNavAltMarkup ul{
+    margin-top: 0px;
+}
+#navbtn{
+    color: rgb(255, 255, 255);
+    background-color: #444444;
+	border-color: rgba(255, 255, 255, 0.192);
+}
+
+/*settings for the footer*/
+#footer{
+    /*width: 100%;*/
+    height: 30px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    font-size: small;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    text-align: center;
+}
+#footer ul{
+    display: block;
+    text-align: center;
+    padding-left: 0%;
+}
+#footer li{
+    display: inline-block;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+.soc_med_img img{
+    height: 20px;
+    width: 20px;
+}
+#soc_med_img_right{
+    margin-left: 3%;
+}
+
+/*main content settings*/
+body{
+    background-color: #dddddd;
+}
+#main_picture{
+    background-color: #202020;
+    text-align: center;
+    min-width: fit-content;
+}
+#main_picture img{ 
+    margin-top: 150px;
+    height: 200px;
+}
+@media only screen and (min-width: 750px) {
+	#main_picture img {height: 450px;}
+}
+body{
+    margin: 0px;
+}
+#debut, #gallery, #news{
+    text-align: center;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 530px;
+    vertical-align: top;
+}
+#content{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+h2{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #888888;
+    font-size:30px;
+    margin-top: 0px;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+#gallery{
+    border-left: 2px #bbbbbb solid;
+    border-right: 2px #bbbbbb solid;
+}
+.nonwebfunction{
+    background-color: #101010;
+    color: white;
+    border: 2px black solid;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(255, 128, 36);
+    border-color: rgb(255, 128, 36);
+}
+.ContentGallery{
+    margin: 1%;
+}
+
+
+.ContentGallery{
+    display: inline-block;
+    height: fit-content;
+    width: 31%;
+    margin: 1%;
+}
+
+.photos_content_photos{
+    display: inline-block;
+    margin: 0.5%;
+    height: fit-content;
+    width: 15%;
+}
+.photos_content_photos_horizontal{
+    width: 30%;
+    margin: 1%;
+}
+.date{
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0px;
+}
+.eventTitle{
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+
+
