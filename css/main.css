@@ -2,17 +2,19 @@
     display: inline-block;
     vertical-align: top;
     height: auto; 
-    width: 30%;
+    width: 100%;
     margin: 1%;
 }
 #gallery{
-    border-left: 2px #bbbbbb solid;
-    border-right: 2px #bbbbbb solid;
+    border:none;
     margin-bottom: 30px;
 }
 @media only screen and (max-width: 768px) {
-	.content_columns {width: 100%;}
-    #gallery{border: none;}
+    #content{
+        width: 90%;
+        margin-left: 5%;
+        margin-right:5%;
+    }
 }
 .ContentGallery{
     margin: 4px;
@@ -21,11 +23,11 @@
     border-top-right-radius: 7px;
 }
 #content{
-    width: 80%;
+    width: 70%;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: center;
 }
 #debut p{
