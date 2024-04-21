@@ -23,6 +23,8 @@
 }
 .music_text{
     margin-top: 0px;
+    text-align: justify;
+    padding-left: 25px;
     
 }
 @media only screen and (max-width: 768px) {
