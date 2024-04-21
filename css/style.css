@@ -102,13 +102,11 @@ body{
 }
 #main_picture img{
     margin-top: 130px;
-    height: 400px;
+    max-height: 400px;
+    max-width: 100%<
 }
 @media only screen and (max-width: 500px) {
 	#main_picture img {height: 150px;}
-}
-@media only screen and (max-width: 800px) {
-	#main_picture img {height: 100px;}
 }
 h2{
     text-transform: uppercase;
