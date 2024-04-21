@@ -102,15 +102,15 @@ body{
 }
 #main_picture img{
     margin-top: 130px;
-    height: 450px;
+    height: 400px;
 }
 @media only screen and (max-width: 500px) {
-	#main_picture img {height: 200px;}
+	#main_picture img {height: 150px;}
 }
 h2{
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #666666;
+    color: #333333;
     font-size: xx-large;
     font-weight: bold;
 }
