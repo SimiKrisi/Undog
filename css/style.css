@@ -107,6 +107,9 @@ body{
 @media only screen and (max-width: 500px) {
 	#main_picture img {height: 150px;}
 }
+@media only screen and (max-width: 800px) {
+	#main_picture img {height: 230px;}
+}
 h2{
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
