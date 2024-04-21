@@ -108,7 +108,7 @@ body{
 	#main_picture img {height: 150px;}
 }
 @media only screen and (max-width: 800px) {
-	#main_picture img {height: 230px;}
+	#main_picture img {height: 100px;}
 }
 h2{
     text-transform: uppercase;
