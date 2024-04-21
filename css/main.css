@@ -9,18 +9,16 @@
     border:none;
     margin-bottom: 30px;
 }
-@media only screen and (max-width: 768px) {
-    #content{
-        width: 90%;
-        margin-left: 5%;
-        margin-right:5%;
-    }
-}
+
 .ContentGallery{
     margin: 4px;
-    width: 20%;
+    width: auto;
+    display: inline-block;
+    max-width: 150px;
     border-bottom-left-radius: 7px;
     border-top-right-radius: 7px;
+    min-width: 100px;
+
 }
 #content{
     width: 60%;
