@@ -56,22 +56,9 @@
             require_once "events_write.php";
             ?>
             <div id="news_content">
-                <!--<div class="concert" onclick="location.href='https://www.facebook.com/undogofficial/';" >
-                    <h3>Undög koncert</h3>
-                    <p>
-                        Időpont: <i>2024.03.02 19:00</i><br>
-                        Helyszín: <i>Vác, Suti Brothers' Pub </i><br>
-                        Belépő: <i>Ingyenes</i>
-                    </p>
-                </div>
-                <div class="concert" onclick="location.href='https://www.facebook.com/events/1149628046205394/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22external_search_engine%22%7D%2C%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D';">
-                    <h3>Metál Házibuli</h3>
-                    <p>
-                        Időpont: <i>2024.03.16 19:20 </i><br>
-                        Helyszín:<i> Göd, Ani borozó </i><br>
-                        Belépő:<i> Ingyenes</i>
-                    </p>
-                </div>-->
+                <?php
+                require_once "events_write.php";
+                ?>
             </div>
         </div>
     </div>
