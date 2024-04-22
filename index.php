@@ -52,9 +52,6 @@
         </div>
         <div id="news"  class="content_columns col-lg-3 col-sm-10" >
             <h2>Események</h2>
-            <?php
-            require_once "events_write.php";
-            ?>
             <div id="news_content">
                 <?php
                 require_once "events_write.php";
