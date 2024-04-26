@@ -46,13 +46,13 @@
     display:inline-block;
     margin-right: 10px;
     margin-left: 10px;
-    &:hover {
-        background-color: #cccccc;
-        cursor: pointer;
-        border-bottom-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
 }
+.concert:hover{
+    background-color: #cccccc;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
 h3{
     text-align: center;
 }
