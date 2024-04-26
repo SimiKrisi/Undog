@@ -88,6 +88,38 @@
             <li><a href="https://www.facebook.com/undogofficial" target="_blank">Facebook</a></li>
         </ul>
     </div>
+
+    <script>
+        // Függvény az események beolvasására és megjelenítésére
+        function loadEvents() {
+            // AJAX kérés a events.txt fájl beolvasására
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    // A fájl tartalma egy soronként
+                    var events = this.responseText.split('\n');
+                    var eventList = document.getElementById("news_content");
+
+                    // Minden esemény hozzáadása a listához
+                    for (var i = 0; i < events.length; i++) {
+                        var eventData = events[i].split(';');
+                        var eventDate = eventData[0];
+                        var eventTitle = eventData[1];
+                        var listItem = document.createElement("p");
+                        listItem.textContent = eventDate + " - " + eventTitle;
+                        eventList.appendChild(listItem);
+                    }
+                }
+            };
+            xhttp.open("GET", "events.txt", true);
+            xhttp.send();
+        }
+
+        // Az események betöltése az oldal betöltődésekor
+        window.onload = loadEvents;
+    </script>
+
+    
     <!--<script src="js/events.js"></script>-->
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
