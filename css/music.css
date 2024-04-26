@@ -33,13 +33,14 @@
 .music{
     margin-bottom: 35px;
     transition: background-color 0.5s ease;
-    &:hover {
-        background-color: #cccccc;
-        cursor: pointer;
-        border-bottom-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
 }
+.music:hover {
+    background-color: #cccccc;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 #main_picture{
     height: 135px;
 }
