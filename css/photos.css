@@ -26,11 +26,12 @@ h3{
     background-repeat: no-repeat;
     background-position: center;
     transition: border-color 0.5s ease;
-    &:hover {
-        border-color: rgb(255, 128, 36);
-        cursor: pointer;
-    }
 }
+.album:hover {
+    border-color: rgb(255, 128, 36);
+    cursor: pointer;
+}
+
 
 #albums{
     margin-top: 30px; 
